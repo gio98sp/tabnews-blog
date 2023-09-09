@@ -1,3 +1,4 @@
+const { thonUI, thonUIContent } = require('@thonlabs/ui/plugin');
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -5,6 +6,7 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    thonUIContent()
   ],
   theme: {
     extend: {
@@ -15,6 +17,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  jit: true,
+  plugins: [thonUI()],
 }
 export default config
