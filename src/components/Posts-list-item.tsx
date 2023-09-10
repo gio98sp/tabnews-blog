@@ -12,7 +12,7 @@ interface IPostsListItem {
 
 export const PostsListItem = ({ post }: IPostsListItem) => {
   return (
-    <>
+    <div className="rounded-xl border-l-[1px] border-gray-500 pl-3">
       <Link href={`/${post.owner_username}/${post.slug}`}>
         <div className="space-x-4">
           <Text variant="sm" className="text-gray-500">
@@ -24,10 +24,10 @@ export const PostsListItem = ({ post }: IPostsListItem) => {
           </Text>
         </div>
 
-        <Text as="h2" variant="2xl" className="mb-4">
+        <Text as="h2" variant="xl">
           {post.title}
         </Text>
       </Link>
-    </>
+    </div>
   );
 };

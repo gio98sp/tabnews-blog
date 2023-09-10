@@ -2,3 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+.thon-ui-markdown pre {
+  -webkit-overflow-scrolling: touch;
+  @apply my-4
+  overflow-x-auto
+  rounded-md
+  bg-gray-200
+  p-4
+  text-gray-800;
+}
+
+.thon-ui-markdown p,
+.thon-ui-markdown h2 {
+  @apply my-6;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 0.7rem;
+  width: 0.7rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}

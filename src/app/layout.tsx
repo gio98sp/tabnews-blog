@@ -20,11 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body
-        className={`${inter.className} lg:grid lg:grid-cols-[26.5rem_1fr] xl:grid-cols-[34.25rem_1fr]`}
-      >
+      <body className={`${inter.className} flex flex-col lg:flex-row`}>
         <Header />
-        <main className="p-10">
+
+        <main className="flex h-fit min-h-screen w-full flex-col justify-between p-8 lg:max-w-[42rem]">
           {children}
           <Footer />
         </main>

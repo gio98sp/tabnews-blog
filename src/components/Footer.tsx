@@ -5,7 +5,7 @@ export const Footer = () => {
     "text-gray-500 hover:text-gray-800 transition-all duration-200ms ease-in-out";
 
   return (
-    <footer className="flex items-center justify-between border-t border-solid border-t-gray-200 pt-4">
+    <footer className="mt-6 flex flex-wrap items-center justify-between gap-1 border-t border-solid border-t-gray-200 pt-6 ">
       <div className="flex flex-col">
         <Text className="font-bold italic text-gray-800">Giovane!</Text>
         <Text variant="xs" className="text-gray-500">
@@ -13,7 +13,7 @@ export const Footer = () => {
         </Text>
       </div>
 
-      <ul className="flex gap-2.5">
+      <ul className="flex flex-wrap gap-2.5">
         <li>
           <a
             href="https://www.linkedin.com/in/giovane98sp/"
