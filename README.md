@@ -2,12 +2,11 @@
 
 <img src='./public/screenshot.png' self='center' width='400'><br />
 
-Criei um blog feito com NextJS, Thon UI e as APIs to TabNews.
+Criei um blog feito com **NextJS**, **Thon UI** e as APIs to **TabNews**.
 
 Apenas para estudos e adquirir experiência na prática.
 
 Acesse o projeto aqui: [tabNews Blog](https://tabnews-blog.vercel.app/)
-
 
 ## Executando o projeto
 
