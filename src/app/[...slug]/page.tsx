@@ -45,12 +45,12 @@ export default async function PostDetails({ params }: IPostDetailsProps) {
             </span>
           </div>
 
-          <Text as="h1" variant="2xl" className="mb-6 mt-2">
+          <Text as="h1" variant="2xl" className="my-6">
             {post.title}
           </Text>
 
           <section>
-            <RenderMarkdown value={post.body || ""} className="" />
+            <RenderMarkdown value={post.body || ""} />
           </section>
         </div>
       ) : (

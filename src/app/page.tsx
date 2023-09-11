@@ -14,7 +14,7 @@ export default async function Home() {
     <article className="h-[calc(100%-3.563rem)]">
       <header>
         <Text as="h1" variant="3xl lg:4xl" className="mb-8 w-full">
-          <Link href='/'>Blog</Link>
+          <Link href='/'>TabNews Blog</Link>
         </Text>
       </header>
 
